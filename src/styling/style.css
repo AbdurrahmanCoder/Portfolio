@@ -1,0 +1,75 @@
+    *{
+padding:0;
+margin: 0;
+
+}
+
+
+
+ul{
+    display:flex;
+}
+ul > li { 
+    list-style: none;
+   color:white;
+padding:20px;
+}
+
+
+.navbar{
+display:flex;
+justify-content: space-between;
+ align-items: center;
+ 
+}
+
+ul > li:hover {
+
+    color: rgba(36, 255, 229, 1);
+
+    cursor: pointer;
+}
+
+/* span {
+    color:red;
+
+} */
+
+
+ /* *****************************************************scrollbar ************************************************ */
+
+
+ body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+  }
+  body::-webkit-scrollbar {
+    width:4px; /* Width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #65a7ec ;  
+    border-radius: 6px; /* Radius of the thumb */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #000000; /* Darker gray color for the track */
+  }
+  
+  /* For Firefox */
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: #0000001f #000000;
+  }
+  
+  body::-moz-scrollbar-thumb {
+    background-color: #000000;
+  }
+  
+  body::-moz-scrollbar-track {
+    background-color: #000000; 
+  }
+
+ /* *****************************************************scrollbar ************************************************ */

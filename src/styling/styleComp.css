@@ -1,0 +1,359 @@
+/* * {
+  background-color: black;
+} */
+
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
+.HeroImg {
+  width: 50%;
+  color: "red";
+  margin-bottom: 8rem;
+}
+
+.HomeMain {
+  margin-top: 5rem;
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-around;
+}
+.Home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  /* width: 100vw;
+  height:100vh; */
+  margin-top: 100px;
+  align-items: flex-start;
+  padding-bottom: 20%;
+}
+
+.BsGithub {
+  color: rgb(255, 255, 255);
+}
+
+.BsGithub:hover {
+  color: rgba(36, 255, 229, 1);
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  gap: 20px;
+  align-self: center;
+}
+
+h2 {
+  color: white;
+  /* line-height:120px; */
+
+  padding: 20px 0px;
+}
+
+.H1name {
+  font-size: 50px;
+  background-image: linear-gradient(90deg, #0f81fc, #0de3ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+ 
+}
+
+ 
+ 
+/* background-image: linear-gradient(to right, #388EEB,#30BBCD); */
+
+.H6hello {
+  color: grey;
+  font-size: 17px;
+}
+
+.H2work {
+  font-size: 25px;
+  color: rgb(53, 217, 176);
+
+  /* background-image: linear-gradient(to right, rgb(201, 18, 159),rgb(35, 35, 234));
+          background-clip: text;
+          -webkit-background-clip: text;
+         color: transparent;
+          animation-name: AnimateH1name;
+           
+          animation: AnimateH1name 5s infinite smooth;
+         animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes AnimateH1name {
+  16% {
+    background-image: linear-gradient(
+      to right,
+      rgb(32, 22, 29),
+      rgb(19, 19, 108)
+    );
+  }
+
+  25% {
+    background-image: linear-gradient(
+      to right,
+      rgb(35, 118, 28),
+      rgb(35, 35, 234)
+    );
+  }
+  50% {
+    background-image: linear-gradient(
+      to right,
+      rgb(131, 15, 15),
+      rgb(205, 215, 12)
+    );
+  }
+  75% {
+    background-image: linear-gradient(
+      to right,
+      rgb(201, 18, 159),
+      rgb(35, 35, 234)
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      to right,
+      rgb(201, 18, 159),
+      rgb(35, 35, 234)
+    );
+  }
+}
+
+/* project.css */
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ProjectMainClass {
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.ProjectChildDiv {
+  background-color: #0d0d36;
+  margin: 20px;
+  padding: 20px;
+}
+
+.ProjectChildDiv img {
+  width: 100%;
+  height: 200px;
+}
+
+.ProjectName {
+  background-image: linear-gradient(90deg, #0f81fc, #0de3ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 10px;
+}
+
+/*  **************************************     #Project3.css  *************************************************/
+
+/* 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-110%);   
+    opacity: 0;
+  }
+  100% {
+  opacity: 1;
+    transform: translateX(0);  
+  }
+}
+
+/* Apply the animation to the .slide-in element */
+.slidein {
+  animation-name: slideInFromLeft; /* Use the defined keyframes */
+  animation-duration: 1.6s; /* Animation duration (1 second) */
+  animation-timing-function: ease; /* Timing function for easing */
+  animation-delay: 0s; /* Delay before the animation starts (0 seconds) */
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+*/ .white {
+  color: white;
+}
+
+.Project3Main {
+  max-width: 1400px;
+  height: 100vh;
+
+  margin: auto;
+}
+
+.container {
+  margin: 0 auto !important;
+  max-width: 127rem !important;
+  padding: 0 2.5rem !important;
+}
+/* .Project3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 100px;
+  grid-gap: 2rem;
+  padding: 6%;
+} */
+
+.Project3 {
+  display: flex;
+  margin-bottom: 25rem;
+  justify-content: center; 
+}
+
+.Project3 img {
+  height: 400px;
+}
+  
+.Project3 > img {
+  /* max-height: 100%; */
+  max-width: 100%;
+}
+
+.Project3 p {
+  margin-top: 5px;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  align-self: start;
+}
+
+ 
+.Project3 button {
+  width: 20%;
+  padding: 20px;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  /* background-image: linear-gradient(90deg,#0f81fc,#0de3ff); */
+  /* background-image: linear-gradient(90deg,#fff954,#f7ff0a); */
+  background-image: linear-gradient(90deg, #919292, #121616);
+
+  transition: transform 3s;
+}
+
+.Project3 button:hover {
+  background-image: linear-gradient(90deg, #0f81fc, #0de3ff);
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.buttons > button {
+  border: none;
+  display: flex; 
+  max-width: 100%;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  padding: 10px;
+  align-items: center;
+  gap: 14px;
+}
+
+.buttons > button {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  background-image: linear-gradient(90deg, #0f81fc, #0de3ff);
+  max-width: 100%;
+
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.buttons > button:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.buttons > button:active {
+  color: #000;
+}
+
+.buttons > button:active:after {
+  background: transparent;
+}
+
+.buttons > button:hover:before {
+  opacity: 1;
+}
+.buttons > button:hover {
+  background-image: linear-gradient(90deg, #0f81fc, #0de3ff);
+  cursor: pointer;
+}
+
+.buttons > button:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+/* *************media queries ********** */
+
+/* @media (max-width: 700px) {
+  .Project3 {
+    display: block;
+  }
+} */
+

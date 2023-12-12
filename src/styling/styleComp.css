@@ -1,11 +1,4 @@
-/* * {
-  background-color: black;
-} */
-
-/* body::-webkit-scrollbar {
-  display: none;
-} */
-
+ 
 .HeroImg {
   width: 50%;
   color: "red";
@@ -15,7 +8,6 @@
 .HomeMain {
   margin-top: 5rem;
   display: flex;
-  /* background-color: red; */
   justify-content: space-around;
 }
 .Home {
@@ -23,9 +15,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-
-  /* width: 100vw;
-  height:100vh; */
+ 
   margin-top: 100px;
   align-items: flex-start;
   padding-bottom: 20%;
@@ -48,7 +38,7 @@
 
 h2 {
   color: white;
-  /* line-height:120px; */
+ 
 
   padding: 20px 0px;
 }
@@ -64,8 +54,7 @@ h2 {
 
  
  
-/* background-image: linear-gradient(to right, #388EEB,#30BBCD); */
-
+ 
 .H6hello {
   color: grey;
   font-size: 17px;
@@ -75,14 +64,7 @@ h2 {
   font-size: 25px;
   color: rgb(53, 217, 176);
 
-  /* background-image: linear-gradient(to right, rgb(201, 18, 159),rgb(35, 35, 234));
-          background-clip: text;
-          -webkit-background-clip: text;
-         color: transparent;
-          animation-name: AnimateH1name;
-           
-          animation: AnimateH1name 5s infinite smooth;
-         animation: name duration timing-function delay iteration-count direction fill-mode; */
+ 
 }
 
 @keyframes AnimateH1name {
@@ -124,8 +106,7 @@ h2 {
   }
 }
 
-/* project.css */
-
+ 
 h1 {
   color: white;
   text-align: center;
@@ -157,32 +138,17 @@ h1 {
   color: transparent;
   padding: 10px;
 }
-
-/*  **************************************     #Project3.css  *************************************************/
-
-/* 
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-110%);   
-    opacity: 0;
-  }
-  100% {
-  opacity: 1;
-    transform: translateX(0);  
-  }
-}
-
-/* Apply the animation to the .slide-in element */
+ 
 .slidein {
-  animation-name: slideInFromLeft; /* Use the defined keyframes */
-  animation-duration: 1.6s; /* Animation duration (1 second) */
-  animation-timing-function: ease; /* Timing function for easing */
-  animation-delay: 0s; /* Delay before the animation starts (0 seconds) */
+  animation-name: slideInFromLeft; 
+  animation-duration: 1.6s;  
+  animation-timing-function: ease; 
+  animation-delay: 0s;  
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-fill-mode: forwards;
 }
-*/ .white {
+  .white {
   color: white;
 }
 
@@ -198,13 +164,7 @@ h1 {
   max-width: 127rem !important;
   padding: 0 2.5rem !important;
 }
-/* .Project3 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding-bottom: 100px;
-  grid-gap: 2rem;
-  padding: 6%;
-} */
+ 
 
 .Project3 {
   display: flex;
@@ -217,7 +177,7 @@ h1 {
 }
   
 .Project3 > img {
-  /* max-height: 100%; */
+
   max-width: 100%;
 }
 
@@ -235,8 +195,7 @@ h1 {
   padding: 20px;
   margin-top: 20px;
   color: rgb(0, 0, 0);
-  /* background-image: linear-gradient(90deg,#0f81fc,#0de3ff); */
-  /* background-image: linear-gradient(90deg,#fff954,#f7ff0a); */
+ 
   background-image: linear-gradient(90deg, #919292, #121616);
 
   transition: transform 3s;
@@ -348,12 +307,4 @@ h1 {
   }
 }
 
-
-/* *************media queries ********** */
-
-/* @media (max-width: 700px) {
-  .Project3 {
-    display: block;
-  }
-} */
-
+ 

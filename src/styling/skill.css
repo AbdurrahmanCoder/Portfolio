@@ -30,10 +30,7 @@
    
   .SkillsHead{ 
       font-size: 50px;
-      /* background-image: linear-gradient(90deg, #ffffff, #0de3ff);
-      background-clip: text;
-      -webkit-background-clip: text;
-      color: transparent;   */
+     
       margin-bottom: 90px !important; 
   } 
 
@@ -72,35 +69,4 @@ padding-top: 43px !important;
 
 
 
-
-
-  /* 
-    
-  .SkillsHead { 
-  position: relative; 
-  margin: auto;
-  }
-  
-   
-  .SkillsHead:after {
-  content: " ";
-  position: absolute;
-  bottom: 0;
-  left: 0; 
-  height: 0.35rem;
-  border-radius: 1rem;
-  background-image: linear-gradient(90deg, #0de3ff, #0f81fc);
-  box-shadow: 0 0 1rem #0de3ff; 
-  animation: SkillsHead 0.5s cubic-bezier(.9, 0, .5, .9) 0.8s forwards;
-  }
-   
-  
-  @keyframes SkillsHead {
-  0% {
-    width: 0;
-  }
-  
-  100% {
-    width: 100%;
-  }
-  }   */
+ 

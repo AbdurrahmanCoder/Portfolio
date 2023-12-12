@@ -7,8 +7,7 @@
     padding: 20px;
     background-color: black;
     color: white;
-    /* border: 1px solid #ddd; */
-    /* border-radius: 5px; */
+ 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 50%;
   }
@@ -38,7 +37,7 @@
     box-sizing: border-box;
   }
 
-  /* Magic Button Animation */
+  
   .custom-form input[type="submit"] {
     position: relative;
     overflow: hidden;
@@ -123,15 +122,12 @@
     max-height: 20rem;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
-    /* Adjust as needed */
     font-family: monospace;
-    /* or any preferred font-family */
     outline: none;
     background: black;
     border-radius: 0.6rem;
     transition: all 200ms;
     resize: vertical;
-    /* Enable vertical resizing */
     border: 2px solid #0f81fc;
     border-radius: 10px;
     background-clip: padding-box;
@@ -154,9 +150,7 @@
   #message:focus,
   #message:active {
     background-color: #2c3e50;
-    /* Change to the desired color on focus/active state */
     border-color: #7f8c8d;
-    /* Change to the desired border color on focus/active state */
   }
 
 
@@ -164,13 +158,12 @@
     display: block;
     width: 100%;
     color: white;
-    height: 2.75rem;
-    /* Adjust as needed */
+    height: 2.75rem; 
     padding: 1rem;
     font-size: 1.25rem;
-    /* Adjust as needed */
+    
     font-family: monospace;
-    /* or any preferred font-family */
+ 
     outline: none;
     border: 2px solid #0f81fc;
     border-radius: 10px;
@@ -196,43 +189,12 @@
   #email:focus,
   #email:active {
     background-color: #2c3e50;
-    /* Change to the desired color on focus/active state */
     border-color: #7f8c8d;
-    /* Change to the desired border color on focus/active state */
   }
 
   .ContactHeading { 
     margin-bottom: 50px;
-    /* font-family: cursive;
-    font-size: 50px;
-    background-image: linear-gradient(90deg, #fcfcfc, #0de3ff); 
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent; */
+ 
     margin-bottom: 120px;
   }
-    /*
-  .ContactHeading {
-    position: relative;
-  }
-
-  .ContactHeading:after {
-    content: " ";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 0.35rem;
-    border-radius: 1rem;
-    background-image: linear-gradient(90deg, #0de3ff, #0f81fc);
-    box-shadow: 0 0 1rem #0de3ff;
-    animation: ContactHeadings 0.5s cubic-bezier(.9, 0, .5, .9) 0.8s forwards;
-  }
- 
-  @keyframes ContactHeadings {
-    0% {
-      width: 0;
-    } 
-    100% {
-      width: 100%;
-    }
-  } */
+    

@@ -18,13 +18,7 @@ const Skills = () => {
                 <div className='skills-list'>
 
 
-                    {/* <a href="https://soliditylang.org/" target="_blank" rel="noreferrer">
-                        <div class="skill">
-                            <img src={html} alt="Skill logo image" />
-                        </div>
-                        <p>HTML</p>
-                    </a> */}
-
+             
 {SkillData.map((skill) => (
         <a
           key={skill.id}
@@ -51,8 +45,3 @@ const Skills = () => {
 
 export default Skills;
 
-// <img src={html} alt="ssss" className='img_skills' /> 
-// <img  src={css} alt="ssss" className='img_skills' /> 
-// <img  src={javascript} alt="ssss" className='img_skills' /> 
-// <img  src={react} alt="ssss" className='img_skills' /> 
-// <img  src={github} alt="ssss" className='img_skills' />  

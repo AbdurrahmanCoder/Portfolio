@@ -102,15 +102,15 @@ margin: 0 !important;
 }
 
 .green {
-	background:	rgb(244, 132, 132);
+	background:	rgb(243, 47, 67);
 }
 
 .blue {
-	background:dodgerblue;
+	background:rgb(159, 206, 254);
 }
 
 .pink{
-	background:rgb(20, 173, 255);
+	background:rgb(97, 232, 190);
 }
 
 
@@ -138,7 +138,11 @@ justify-content: center;
 border-radius: 10px; 
 }
  
-
+ #SiteEnContruction {
+	margin:0% !important;
+   border-radius: 10px; 
+   }
+	
 .LangueUtlise img{
 	width: 40px;
 	height: 40px;
@@ -163,20 +167,14 @@ color: rgb(189, 242, 168) !important;
   .imgaz1:hover .button  {
 	opacity:1;
    
-}   	
- .button a:hover  {
-	opacity: 1; 
-	background-color: rgb(0, 188, 0);
- }
-
- 
+}   	 
 .button a
 { 
 
 	width: 100%;
 	height: 50px;
 	color: white;
-	background-color: black;
+	background-color: transparent;
 	border: none;
 	border-radius: 5px;
 	text-align: center;
@@ -189,6 +187,7 @@ color: rgb(189, 242, 168) !important;
     justify-content: center;
     gap: 3px;
 	width: 100%;
+ 
 text-decoration: none; }
 
 .button :nth-child(2){
@@ -205,5 +204,80 @@ text-decoration: none; }
  width: 50%;
  }
 
-
+ .button a,
+ .button a *,
+ .button a :after,
+ .button a :before,
+ .button a:after,
+ .button a:before {
+   border: 0 solid;
+   box-sizing: border-box;
+ }
+ .button a {
+   -webkit-tap-highlight-color: transparent;
+   /* -webkit-appearance: button; */
+   background-color: #000 ;
+   background-image: none;
+   color: #fff;
+   cursor: pointer; 
+   font-size: 100%;
+   font-weight: 600;
  
+   margin: 0;
+   mask-image: -webkit-radial-gradient(#000, #fff);
+   padding: 0;
+   text-transform: uppercase;
+ }
+ .button a:disabled {
+   cursor: default;
+ }
+ .button a:-moz-focusring {
+   outline: auto;
+ }
+ .button a svg {
+   display: block;
+ 
+ }
+ 
+ .button a {
+   border-radius: 99rem; 
+   /* overflow: hidden; */
+   padding: 0.8rem 3rem;
+   position: relative;
+ }
+ .button a span {
+   mix-blend-mode: difference;
+ }
+ .button a:before {
+   --tilt: 1.2rem;
+   background: rgb(53, 217, 176);
+   -webkit-clip-path: polygon(
+	 0 0,
+	 calc(100% - var(--tilt)) 0,
+	 100% 100%,
+	 0 100%
+   );
+   clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 100%, 0 100%);
+   content: " ";
+   display: block;
+   height: 100%;
+   left: calc(-100% - var(--tilt));
+   position: absolute;
+   top: 0;
+   transform: translateX(var(--progress, 0));
+   transition: transform 0.2s ease;
+   width: calc(100% + var(--tilt));
+   z-index: -2; 
+ 
+ }
+ .button a:hover:before {
+   --progress: 100%;
+ }
+ .button a {
+	 
+	 padding:2%;
+  }
+ #icons{
+	   /* color: #000; */
+	   color: rgb(255, 255, 255);
+ }

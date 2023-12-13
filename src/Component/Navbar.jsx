@@ -12,11 +12,11 @@ return(
     <div className="navbar">
       <img src={logo} alt='Logo Image' style={{ backgroundColor: "black", width: "100px", height: "100px" }} />
       <ul>
-        <li><Link to="Home" spy={true} smooth={true} offset={50} duration={2222}>Home</Link></li>
-        <li><Link to="Skills" spy={true} smooth={true} offset={50} duration={2222}>Skills</Link></li>
-        <li><Link to="Projet" spy={true} smooth={true} offset={50} duration={0}>Portfolio</Link></li>
-        <li><Link to="SkillsToShow" spy={true} smooth={true} offset={50} duration={0}>About</Link></li>
-        <li><Link to="Contact" spy={true} smooth={true} offset={50} duration={0}>Contact</Link></li>
+        <li><Link to="Home" spy={true} smooth={true} offset={0} duration={2222}>Home</Link></li>
+        <li><Link to="Skills" spy={true} smooth={true} offset={50} duration={1000}>Skills</Link></li>
+        <li><Link to="Projet" spy={true} smooth={true} offset={50} duration={1000}>Portfolio</Link></li>
+        <li><Link to="SkillsToShow" spy={true} smooth={true} offset={50} duration={1500}>About</Link></li>
+        <li><Link to="Contact" spy={true} smooth={true} offset={50} duration={1500}>Contact</Link></li>
       </ul>
     </div>  
 )

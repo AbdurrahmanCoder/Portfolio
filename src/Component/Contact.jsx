@@ -8,33 +8,33 @@ const Contact = () => {
  
 const [show,Setshow] =useState(false);
  
-// useEffect(() => {
-//   if (!show) {
-//     success();
-//   }
-// }, [show]); // Add show as a dependency to run the effect when show changes
+useEffect(() => {
+  if (!show) {
+    success();
+  }
+}, [show]); // Add show as a dependency to run the effect when show changes
 
-// function success() {
-//   Setshow(true);
-// }
+function success() {
+  Setshow(true);
+}
 
-// const form = useRef();
+const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   // Ensure that the service ID, template ID, and user ID are correct
-  //   emailjs
-  //     .sendForm('service_d7324c8', 'template_bos3kqi', form.current, 'BW9FnL9rHMNPFrD_i')
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
+    // Ensure that the service ID, template ID, and user ID are correct
+    emailjs
+      .sendForm('service_d7324c8', 'template_bos3kqi', form.current, 'BW9FnL9rHMNPFrD_i')
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <>

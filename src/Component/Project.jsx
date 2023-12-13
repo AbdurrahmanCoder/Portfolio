@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
- 
+
 import capture from "../../src/photos/Capture.png"
 import styles from '../styling/Project.css'
 import { gsap } from 'gsap';
@@ -7,18 +7,19 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineArrowOutward } from "react-icons/md";
- 
+import Website from '../../src/photos/Website Maintenance.gif'
+
 import { css, github, html, javascript, php, git, jquery, symfony, react } from '../Component/data.js';
 import SkillData from '../Component/data.js'
-import '../Component/data.js' 
-import marvelApp from '../../src/photos/marvelApp.png' 
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin) 
+import '../Component/data.js'
+import marvelApp from '../../src/photos/marvelApp.png'
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 const Project = () => {
- 
+
 	const datas = {};
 	SkillData.map((data) => {
-	  datas[data.id] = { src: data.src, text: data.text };
-	  console.log(datas[data.id].src);
+		datas[data.id] = { src: data.src, text: data.text };
+		console.log(datas[data.id].src);
 	});
 
 	///tededde
@@ -80,41 +81,41 @@ const Project = () => {
 							<p>Une réplique du site de location</p>
 							<div className='LangueUtlise'>
 								<img src={html} alt="" />
-								<img src={css} alt="" /> 
-								<img src={javascript} alt="" />  
+								<img src={css} alt="" />
+								<img src={javascript} alt="" />
 								<img src={php} alt="" />
-									{/* <p>#html </p>
+								{/* <p>#html </p>
 									<p>#css </p>
 									<p>#javascript </p>
 									<p>#php </p> */}
 
 							</div>
- 
-							
-							</div>
+
+
+						</div>
 						<div className="desktopContentSection">
 							<h1>MarvelApp</h1>
 							<p>Marvel App pour rechercher personnage et comics</p>
 							<div className='LangueUtlise'>
 								<img src={html} alt="" />
 								<img src={css} alt="" />
-								<img src={react} alt="" /> 
+								<img src={react} alt="" />
 							</div>		</div>
 
 						<div className="desktopContentSection">
-							<h1>Pink</h1>
+							<h1>site en construction </h1>
 							<p>Lorem ipsum dolor sit.</p>
 							<div className='LangueUtlise'>
-								<img src={html} alt="" />
-								<img src={css} alt="" />
+								{/* <img src={html} alt="" />
+								<img src={css} alt="" /> */}
 
 							</div>		</div>
 						<div className="desktopContentSection">
-							<h1>Blue</h1>
+							<h1>site en construction</h1>
 							<p>Lorem ipsum dolor sit.</p>
 							<div className='LangueUtlise'>
-								<img src={html} alt="" />
-								<img src={css} alt="" />
+								{/* <img src={html} alt="" />
+								<img src={css} alt="" /> */}
 
 							</div>			</div>
 					</div>
@@ -133,7 +134,9 @@ const Project = () => {
 						<div className="mobilePhoto pink"><img src={capture} alt="" /></div>
 						<h1>Pink</h1>
 						<p>Lorem ipsum dolor sit.</p>
-						<div className="mobilePhoto blue"><img src={capture} alt="" /></div>
+						<div className="mobilePhoto blue">
+							<img src={capture} alt="" /></div>
+
 						<h1>Blue</h1>
 						<p>Lorem ipsum dolor sit.</p>		</div>
 
@@ -143,33 +146,33 @@ const Project = () => {
 					<div className="desktopPhotos">
 						<div className="desktopPhoto red imgaz1"     >
 							<img src={capture} alt="" />
-							<div className="button">
-								<a href='https://www.awwwards.com/inspiration_search/?text=e%20commerce%20mobileE-Commerce' target="_blank"> 		<FaGithub /> 	GITHUB</a>
-								<a> <MdOutlineArrowOutward /> LIVE</a>
+							<div id="spin" className="button">
+								<a href='https://github.com/AbdurrahmanCoder/CarProject' target="_blank"> 		<FaGithub id='icons'/> 	GITHUB</a>
+								<a href='https://carrentalprojectphp.000webhostapp.com' target="_blank" > <MdOutlineArrowOutward id='icons'/> LIVE</a>
 							</div>
 						</div>
 
 						<div className="desktopPhoto green imgaz1"><img src={marvelApp} alt="" />
-							<div className="button">
-								<a> 		<FaGithub /> 	GITHUB</a>
-								<a href='https://marvelappepic.netlify.app/' target="_blank"> <MdOutlineArrowOutward /> LIVE</a>
+							<div id="spin" className="button">
+								<a href='https://github.com/AbdurrahmanCoder/MarvelApp' target="_blank">  <FaGithub id='icons' /> 	GITHUB</a>
+								<a href='https://marvelappepic.netlify.app/' target="_blank"> <MdOutlineArrowOutward id='icons'/> LIVE</a>
 							</div>
 						</div>
 
 
 
-						<div className="desktopPhoto pink imgaz1"><img src={capture} alt="" />
-							<div className="button">
-								<a> 		<FaGithub /> 	GITHUB</a>
-								<a> <MdOutlineArrowOutward /> LIVE</a>
+						<div className="desktopPhoto pink imgaz1" ><img id='SiteEnContruction' src={Website} alt="" />
+							<div id="spin" className="button">
+								{/* <a> 		<FaGithub /> 	GITHUB</a>
+								<a> <MdOutlineArrowOutward /> LIVE</a> */}
 							</div>
 
 						</div>
 
-						<div className="desktopPhoto blue imgaz1"><img src={capture} alt="" />
-							<div className="button">
-								<a> 		<FaGithub /> 	GITHUB</a>
-								<a> <MdOutlineArrowOutward /> LIVE</a>
+						<div className="desktopPhoto blue imgaz1" ><img id='SiteEnContruction' src={Website} alt="" />
+							<div   id="spin" className="button">
+								{/* <a> 		<FaGithub /> 	GITHUB</a>
+								<a> <MdOutlineArrowOutward /> LIVE</a> */}
 							</div>
 
 						</div>
@@ -177,7 +180,7 @@ const Project = () => {
 
 				</div>
 			</div>
- 
+
 
 		</>
 

@@ -38,16 +38,7 @@ const Contact = () => {
         }
       );
   };
-
-  // useEffect(() => {
-
-  //   function work() {
-  //     setShow(true);  
-  //   }
-  
-  //   work();  
-  
-  // }, []); 
+ 
 
   return (
     <>

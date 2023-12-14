@@ -1,6 +1,6 @@
 import React from 'react';
 import  './animation.js'
-import '../styling/styleComp.css' 
+import '../styling/home.css' 
 import undraw from "../../src/photos/undraw.svg"
 import { useEffect, useRef, useState } from "react"; 
 import { BsGithub } from "react-icons/bs";

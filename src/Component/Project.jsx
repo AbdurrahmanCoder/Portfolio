@@ -54,7 +54,7 @@ const Project = () => {
 		});
 
 		return () => {
-			// Clean up ScrollTriggers
+
 			ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
 			// console.log('mobile');
 		};
@@ -147,15 +147,15 @@ const Project = () => {
 						<div className="desktopPhoto red imgaz1"     >
 							<img src={capture} alt="" />
 							<div id="spin" className="button">
-								<a href='https://github.com/AbdurrahmanCoder/CarProject' target="_blank"> 		<FaGithub id='icons'/> 	GITHUB</a>
-								<a href='https://carrentalprojectphp.000webhostapp.com' target="_blank" > <MdOutlineArrowOutward id='icons'/> LIVE</a>
+								<a href='https://github.com/AbdurrahmanCoder/CarProject' target="_blank"> 		<FaGithub id='icons' /> 	GITHUB</a>
+								<a href='https://carrentalprojectphp.000webhostapp.com' target="_blank" > <MdOutlineArrowOutward id='icons' /> LIVE</a>
 							</div>
 						</div>
 
 						<div className="desktopPhoto green imgaz1"><img src={marvelApp} alt="" />
 							<div id="spin" className="button">
 								<a href='https://github.com/AbdurrahmanCoder/MarvelApp' target="_blank">  <FaGithub id='icons' /> 	GITHUB</a>
-								<a href='https://marvelappepic.netlify.app/' target="_blank"> <MdOutlineArrowOutward id='icons'/> LIVE</a>
+								<a href='https://marvelappepic.netlify.app/' target="_blank"> <MdOutlineArrowOutward id='icons' /> LIVE</a>
 							</div>
 						</div>
 
@@ -170,7 +170,7 @@ const Project = () => {
 						</div>
 
 						<div className="desktopPhoto blue imgaz1" ><img id='SiteEnContruction' src={Website} alt="" />
-							<div   id="spin" className="button">
+							<div id="spin" className="button">
 								{/* <a> 		<FaGithub /> 	GITHUB</a>
 								<a> <MdOutlineArrowOutward /> LIVE</a> */}
 							</div>

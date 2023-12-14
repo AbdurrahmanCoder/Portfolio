@@ -4,32 +4,6 @@ margin: 0;
 
 }
 
-
-
-ul{
-    display:flex;
-}
-ul > li { 
-    list-style: none;
-   color:white;
-padding:20px;
-}
-
-
-.navbar{
-display:flex;
-justify-content: space-between;
- align-items: center;
- 
-}
-
-ul > li:hover {
-
-    color: rgba(36, 255, 229, 1);
-
-    cursor: pointer;
-}
-
  
  body {
     margin: 0;

@@ -103,7 +103,7 @@
  
  
 .custom-form {
-  transition: opacity  3s ease-in-out;
+  transition: opacity  5s ease-in-out;
 } 
 
 
@@ -115,7 +115,7 @@
   color: white;
   padding: 15px;
   border-radius: 5px;
-  animation: coolAnimation 1s ease-in-out;
+  animation: coolAnimation 3s ease-in-out;
   pointer-events: none;
 }
 
@@ -124,13 +124,18 @@
   color: rgb(255, 255, 255);
 }
 
+
 @keyframes coolAnimation {
   0% {
     transform: scale(0);
     opacity: 0;
   }
-  50% {
+  30% {
     transform: scale(1.2);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1);
     opacity: 1;
   }
   100% {
@@ -373,3 +378,10 @@
 
     margin-bottom: 120px;
   }
+
+
+
+  .Contact {
+   
+    margin-top: 62rem;
+}

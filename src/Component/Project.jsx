@@ -78,7 +78,7 @@ const Project = () => {
 					<div className="desktopContent">
 						<div className="desktopContentSection">
 							<h1>Car Rental</h1>
-							<p>Une réplique du site de location</p>
+							<p>Service de location de véhicules rapide</p>
 							<div className='LangueUtlise'>
 								<img src={html} alt="" />
 								<img src={css} alt="" />

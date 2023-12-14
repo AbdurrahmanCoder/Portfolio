@@ -1,13 +1,13 @@
   .Contact {
     display: flex;
     justify-content: center;
-    height:130vh !important;
+    height: 130vh !important;
     align-items: center;
     margin: 0 auto;
     padding: 20px;
     background-color: black;
     color: white;
- 
+
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 50%;
   }
@@ -37,8 +37,116 @@
     box-sizing: border-box;
   }
 
+
+
+
+
+
+
+  #Submit {
+    align-self: center;
+    background: linear-gradient(to right, #30de81 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+        color: white;
+    background-color: #3498db;
+        border: none;
+    padding: 10px 20px;
+    /* border: 3px solid white; */
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    transition: background-position 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 232;
+  }
+
+  #Submit:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #db8234 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    
+    transition: background-position 0.3s ease-in-out;
+    z-index: -34;
+  }
   
-  .custom-form input[type="submit"] {
+  #Submit:hover {
+    background-position: left bottom;
+    color: #ffffff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    /* border: 3px solid rgb(233, 8, 8); */
+  
+    
+    transform: translateY(-3px) scale(1.05);
+  }
+
+  #Submit:hover:before {
+
+    background-position: right bottom;
+  }
+
+  #Submit:active {
+
+    transform: translateY(0) scale(0.95);
+  }
+
+
+
+ 
+ 
+.custom-form {
+  transition: opacity  3s ease-in-out;
+} 
+
+
+
+
+ 
+ .message-container {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  animation: coolAnimation 1s ease-in-out;
+  pointer-events: none;
+}
+
+.message {
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+@keyframes coolAnimation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+
+
+
+  /* ///TO SUBMIT */
+
+
+
+  /* .custom-form input[type="submit"] {
     position: relative;
     overflow: hidden;
     background: linear-gradient(90deg, #0f81fc, #0de3ff);
@@ -73,10 +181,78 @@
     transition: 0.3s;
     z-index: -1;
   }
-
+ 
   .custom-form input[type="submit"]:hover::before {
     width: 150%;
   }
+  
+ #Submit,
+ #Submit *,
+ #Submit :after,
+ #Submit :before,
+ #Submit:after,
+ #Submit:before {
+   border: 0 solid;
+   box-sizing: border-box;
+ }
+ #Submit {
+   -webkit-tap-highlight-color: red;
+ 
+   background-color: #000 ;
+   background-image: none;
+   color: #fff;
+   cursor: pointer; 
+   font-size: 100%;
+   font-weight: 600; 
+   margin: 0;
+   mask-image: -webkit-radial-gradient(#000, #fff);
+   padding: 0;
+   text-transform: uppercase;
+ }
+ #Submit:disabled {
+   cursor: default;
+ }
+ #Submit:-moz-focusring {
+   outline: auto;
+ }
+ #Submit svg {
+   display: block; 
+ } */
+
+  /* #Submit {
+   border-radius: 99rem; 
+ 
+   padding: 0.8rem 3rem;
+   position: relative;
+ }
+ #Submit span {
+   mix-blend-mode: difference;
+ }
+ #Submit:before {
+   --tilt: 1.2rem;
+   background: rgb(3, 155, 117);
+   -webkit-clip-path: polygon(
+	 0 0,
+	 calc(100% - var(--tilt)) 0,
+	 100% 100%,
+	 0 100%
+   );
+   clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 100%, 0 100%);
+   content: " ";
+   display: block;
+   height: 100%;
+   left: calc(-100% - var(--tilt));
+   position: absolute;
+   top: 0;
+   transform: translateX(var(--progress, 0));
+   transition: transform 0.2s ease;
+   width: calc(100% + var(--tilt));
+ 
+ 
+ }
+ #Submit:hover:before {
+   --progress: 100%;
+ } */
 
   #name {
     position: relative;
@@ -112,7 +288,7 @@
     background-color: #2c3e50;
     border-color: #7f8c8d;
   }
- 
+
   #message {
     display: block;
     width: 100%;
@@ -158,12 +334,12 @@
     display: block;
     width: 100%;
     color: white;
-    height: 2.75rem; 
+    height: 2.75rem;
     padding: 1rem;
     font-size: 1.25rem;
-    
+
     font-family: monospace;
- 
+
     outline: none;
     border: 2px solid #0f81fc;
     border-radius: 10px;
@@ -192,9 +368,8 @@
     border-color: #7f8c8d;
   }
 
-  .ContactHeading { 
+  .ContactHeading {
     margin-bottom: 50px;
- 
+
     margin-bottom: 120px;
   }
-    

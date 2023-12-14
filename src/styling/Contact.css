@@ -381,7 +381,19 @@
 
 
 
-  .Contact {
+
+
+@media screen and (max-width: 599px) {
+  
+  
+  
+  form {
+    width: 148%;
+  }
+ .Contact {
    
     margin-top: 62rem;
+}  
+
+
 }

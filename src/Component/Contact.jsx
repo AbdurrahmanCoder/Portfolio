@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 import '../styling/Contact.css';
 
 const Contact = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     if (show) { 
@@ -29,8 +29,7 @@ const Contact = () => {
       .sendForm('service_d7324c8', 'template_bos3kqi', form.current, 'BW9FnL9rHMNPFrD_i')
       .then(
         (result) => {
-          console.log(result.text);
-  
+          console.log(result.text); 
           setShow(true);
         },
         (error) => {
@@ -39,6 +38,13 @@ const Contact = () => {
       );
   };
  
+
+
+
+
+
+
+
 
   return (
     <>

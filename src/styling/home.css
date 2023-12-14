@@ -1,72 +1,74 @@
- 
-.HeroImg {
-    width: 50%;
-    color: "red";
-    margin-bottom: 8rem;
-  }
-  
-  .HomeMain {
-    margin-top: 5rem;
-    display: flex;
-    justify-content: space-around;
-  }
-  .Home {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-   
-    margin-top: 100px;
-    align-items: flex-start;
-    padding-bottom: 20%;
-  }
-  
-  .BsGithub {
-    color: rgb(255, 255, 255);
-  }
-  
-  .BsGithub:hover {
-    color: rgba(36, 255, 229, 1);
-  }
-  .icons {
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    gap: 20px;
-    align-self: center;
-  }
-  
-  h2 {
-    color: white;
-   
-  
-    padding: 20px 0px;
-  }
-  
-  .H1name {
-    font-size: 50px;
-    background-image: linear-gradient(90deg, #0f81fc, #0de3ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  
-  }
-  
-   
-   
-   
-  .H6hello {
-    color: grey;
-    font-size: 17px;
-  }
-  
-  .H2work {
-    font-size: 25px;
-    color: rgb(53, 217, 176);
-  
-   
-  }
-/*  
+ .HeroImg {
+   width: 50%;
+   color: "red";
+   margin-bottom: 8rem;
+ }
+
+ .HomeMain {
+   margin-top: 5rem;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .Home {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+
+   margin-top: 100px;
+   align-items: flex-start;
+   padding-bottom: 20%;
+ }
+
+ .BsGithub {
+   color: rgb(255, 255, 255);
+ }
+
+ .BsGithub:hover {
+   color: rgba(36, 255, 229, 1);
+ }
+
+ .icons {
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+   gap: 20px;
+   align-self: center;
+ }
+
+ h2 {
+   color: white;
+
+
+   padding: 20px 0px;
+ }
+
+ .H1name {
+   font-size: 50px;
+   background-image: linear-gradient(90deg, #0f81fc, #0de3ff);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+
+ }
+
+
+
+
+ .H6hello {
+   color: grey;
+   font-size: 17px;
+ }
+
+ .H2work {
+   font-size: 25px;
+   color: rgb(53, 217, 176);
+
+
+ }
+
+ /*  
   @keyframes AnimateH1name {
     16% {
       background-image: linear-gradient(
@@ -106,18 +108,80 @@
     }
   }  
    */
-   
-  h1 {
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+
+ h1 {
+   color: white;
+   text-align: center;
+   margin-bottom: 20px;
+ }
 
 
-  @media screen and (width < 800px) {
-    
-.HeroImg{
+ @media screen and (width < 800px) {
+
+   .HeroImg {
+     display: none;
+   }
+
+   .Home {
+     gap: 0px;
+
+   }
+
+ }
+
+
+ @media screen and (width < 460px) {
+
+   .HeroImg {
+     display: none;
+   }
+
+
+   .H1name {
+     font-size: 35px;
+   }
+
+
+   .H6hello {
+     align-self: flex-start;
+     font-size: 17px;
+   }
+
+   .H2work {
+     font-size: 18px;
+     color: rgb(53, 217, 176);
+   }
+ }
+
+
+
+ 
+ @media screen and (width < 360px) {
+
+  .HeroImg {
     display: none;
-}
+  }
+
+
+  .H1name {
+    font-size: 25px;
+  }
+
+
+  .H6hello {
+    align-self: flex-start;
+    font-size: 17px;
+  }
+
+  .H2work {
+    font-size: 14px;
+    color: rgb(53, 217, 176);
+  }
+
+  .BsGithub{
+    width: 30px;
+    height: 30px;
 
   }
+
+}

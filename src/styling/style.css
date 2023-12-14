@@ -10,9 +10,10 @@ margin: 0;
     padding: 0;
     height: 100vh;
     background-color: black;
+   
   }
   body::-webkit-scrollbar {
-    width:4px;  
+    width:9px;  
   }
   
   body::-webkit-scrollbar-thumb {

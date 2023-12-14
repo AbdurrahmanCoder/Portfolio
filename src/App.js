@@ -10,6 +10,8 @@ import Project3 from './Component/Project3';
 import Contact from './Component/Contact';
 import Project from './Component/Project';
 import styles from '../src/styling/styleComp.css'
+import '../src/styling/style.css' 
+
 
 function App() {
   return (

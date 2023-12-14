@@ -128,16 +128,15 @@ const Project = () => {
 							<img src={capture} alt="" /></div>
 						<h1> car rental	</h1>
 						<p>Lorem ipsum dolor sit.</p>
-						<div className="mobilePhoto green"><img src={capture} alt="" /></div>
-						<h1>Green</h1>
+						<div className="mobilePhoto green"><img src={marvelApp} alt="" /></div>
+						<h1>MarvelApp</h1>
 						<p>Lorem ipsum dolor sit.</p>
-						<div className="mobilePhoto pink"><img src={capture} alt="" /></div>
-						<h1>Pink</h1>
+						<div className="mobilePhoto pink"><img src={Website} alt="" /></div>
+						<h1>site en construction</h1>
 						<p>Lorem ipsum dolor sit.</p>
 						<div className="mobilePhoto blue">
-							<img src={capture} alt="" /></div>
-
-						<h1>Blue</h1>
+							 <img src={Website} alt="" />  </div> 
+						<h1>site en construction </h1>
 						<p>Lorem ipsum dolor sit.</p>		</div>
 
 

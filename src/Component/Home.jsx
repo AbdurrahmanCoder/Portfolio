@@ -80,9 +80,9 @@ return(
 <h2 className='H2work'>Je suis developpeur full stack</h2>
 {/* <h2 >I am a front end developer.</h2> */}
 <div className='icons'> 
-<SiGmail className='BsGithub'   size={"50px"}/>
-<BsGithub className='BsGithub'   size={"50px"}/> 
-<BsLinkedin className='BsGithub'   size={"50px"}/> 
+ <a href="mailto:abdurrahmanabdulravuf@gmail.com"> <SiGmail className='BsGithub'   size={"50px"}/></a>
+ <a href="https://github.com/AbdurrahmanCoder"> <BsGithub className='BsGithub'   size={"50px"}/></a> 
+ <a href="https://www.linkedin.com/in/abdurrahmancoder/"> <BsLinkedin className='BsGithub'   size={"50px"}/></a> 
 </div>
 </div>
 <img className='HeroImg'  src={undraw} alt="" />
@@ -97,3 +97,4 @@ return(
 )
  }
  export default Home;
+

@@ -1,4 +1,6 @@
- .HeroImg {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Syne:wght@700&display=swap');
+ 
+.HeroImg {
    width: 50%;
    color: "red";
    margin-bottom: 8rem;
@@ -50,11 +52,9 @@
    background-clip: text;
    -webkit-background-clip: text;
    color: transparent;
+   font-family: 'Syne', sans-serif;
 
  }
-
-
-
 
  .H6hello {
    color: grey;
@@ -185,3 +185,5 @@
   }
 
 }
+
+

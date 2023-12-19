@@ -10,7 +10,7 @@ margin: 0;
     padding: 0;
     height: 100vh;
     background-color: black;
-   
+   overflow-x: hidden;
   }
   body::-webkit-scrollbar {
     width:9px;  

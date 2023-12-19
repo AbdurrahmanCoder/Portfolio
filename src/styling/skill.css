@@ -126,12 +126,22 @@
 
 
 
-      @media screen and (width < 430px) {
+       @media screen and (width < 430px) {
 
         .skills-list {
-          grid-template-columns: 1fr;
+          /* grid-template-columns: 1fr;
           row-gap: 12rem;
-          height: 270vh;
+          height: 270vh; */
+          padding: 0;
+                    grid-gap: 1rem;
+          gap: 2rem;
         }
 
-      }
+        .skill img {
+
+          width: 5rem;
+          height: 5rem;
+          /* max-width: 100%; */
+
+        }
+      } 

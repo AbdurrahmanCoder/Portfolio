@@ -69,7 +69,6 @@ body {
 
 .desktopContentSection h1 {
 
-
 	font-family: 'Poppins', sans-serif;
 	text-align: left;
 	margin: 0 !important;
@@ -169,8 +168,18 @@ body {
 
 .imgaz1:hover .button {
 	opacity: 1;
+}
+
+
+.desktopPhotos:hover .cursor-outline {
+
+	/* width:  !important;
+	 */
+
 
 }
+
+
 
 .button a {
 
@@ -226,8 +235,7 @@ body {
 	color: #fff;
 	cursor: pointer;
 	font-size: 100%;
-	font-weight: 600;
-
+	font-weight: 600; 
 	margin: 0;
 	mask-image: -webkit-radial-gradient(#000, #fff);
 	padding: 0;
@@ -334,31 +342,30 @@ body {
 	}
 
 	.mobileContent img {
- display: flex;
- 
- align-self: center;
+		display: flex;
+
+		align-self: center;
 		width: 250px;
-		height: 250px; 
+		height: 250px;
 		max-width: 100%;
-		width: 100%; 
- 
+		width: 100%;
+
 	}
 
-	.mobileContent 
-	p {
+	.mobileContent p {
 
 		display: none;
 	}
 
 
-	.mobileContent 
-	h1{
+	.mobileContent h1 {
 
 		margin-top: 22px;
 		font-size: 25px;
 		text-transform: capitalize;
-	
+
 	}
+
 	.mobilePhoto {
 		display: flex;
 		align-self: center;
@@ -372,14 +379,12 @@ body {
 }
 
 
-@media screen and (width <300px)
+@media screen and (width <300px) {
+	.mobileContent img {
 
-{ 
-.mobileContent img {
- 
-    height: 126px;
-   
-  
+		height: 126px;
 
-}	
+
+
+	}
 }

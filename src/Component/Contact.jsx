@@ -26,8 +26,8 @@ const Contact = () => {
 
  
     emailjs
-      .sendForm('service_d7324c8', 'template_bos3kqi', form.current, 'BW9FnL9rHMNPFrD_i')
-      .then(
+    .sendForm('service_d7324c8', 'template_bos3kqi', form.current, 'Oq2q7Xbg3Sxq6GRVz')  
+    .then(
         (result) => {
           console.log(result.text); 
           setShow(true);
@@ -40,12 +40,7 @@ const Contact = () => {
  
 
 
-
-
-
-
-
-
+ 
   return (
     <>
       <div className="Contact" id="Contact">

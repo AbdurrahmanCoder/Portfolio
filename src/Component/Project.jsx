@@ -147,7 +147,7 @@ const Project = () => {
 							<img src={capture} alt="" />
 							<div id="spin" className="button">
 								<a href='https://github.com/AbdurrahmanCoder/CarProject' target="_blank"> 		<FaGithub id='icons' /> 	GITHUB</a>
-								<a href='https://carrentalapplication.000webhostapp.com/' target="_blank" > <MdOutlineArrowOutward id='icons' /> LIVE</a>
+								<a href='http://carrental.thsite.top/?i=1/' target="_blank" > <MdOutlineArrowOutward id='icons' /> LIVE</a>
 							</div>
 						</div>
 

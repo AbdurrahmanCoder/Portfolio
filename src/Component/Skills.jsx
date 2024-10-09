@@ -20,18 +20,12 @@ const Skills = () => {
 
              
 {SkillData.map((skill) => (
-        <a
-          key={skill.id}
-          href={skill.href}
-          target="_blank"
-          rel="noreferrer"
-        >
+        
           <div className="skill">
             <img src={skill.src} alt={skill.alt} />
           </div>
           <p>{skill.text}</p>
-        </a>
-      ))}
+       ))}
 
 
                 </div>
